@@ -1,0 +1,186 @@
+.main.nav {
+	background-color: #3763d7;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 21px;
+	width: 100%;
+	z-index: 10;
+}
+
+.nav.title {
+	float: left;
+	padding: 20px;
+	top: 0;
+	left: 0;
+	color: #f7f7f7
+}
+
+.nav.links {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav.links .element {
+	float: right;
+	padding: 20px;
+	color: #f7f7f7;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav.links a:hover {
+	background-color: #334bcc;
+}
+
+.phone {
+	height: 21px;
+	vertical-align: middle;
+}
+
+.hero {
+	background: url(../img/Office_bkgr.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 0;
+	height: 800px;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.hero.title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: 300;
+	color: #2152d3;
+	top: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.dentistry {
+	color: #2152d3;
+	font-family: Open Sans;
+	font-weight: 800;
+	padding: 20px;
+}
+
+.intro {
+	background-color: #3763d7;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.logo {
+	width: 300px;
+	padding-top: 50px;
+}
+
+.welcome {
+	width: 100%;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 40pt;
+	color: #ebebeb;
+	padding: 10px 0 50px;
+	letter-spacing: .2em;
+}
+
+.divider {
+	width: 153px;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #062e99;
+}
+
+.intro.text {
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+	max-width: 900px;
+	margin: 0 auto;
+	color: #ebebeb;
+	letter-spacing: .1em;
+	line-height: 1.6;
+}
+
+.appt.button {
+	background-color: #062e99;
+	color: #ebebeb;
+	border-radius: 10px;
+	padding: 20px 50px;
+	margin-bottom: 50px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 14pt;
+	letter-spacing: .2em;
+	transition: all 200ms;
+}
+
+.appt.button:hover {
+	background-color: #0737b6;
+}
+
+.quality {
+	background: url(../img/dentistchair.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 0;
+	padding-top: 1px;
+	position: relative;
+	background-attachment: fixed;
+}
+
+.quality.text {
+	background-color: rgba(255,255,255,0.5);
+	margin-top: 300px;
+	padding: 100px 0;
+}
+
+.team.text {
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 40pt;
+	color: #3763d7;
+}
+
+.profile.image {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.lee {
+	background:url(../img/lee.jpg);
+}
+
+.veronica {
+	background: url(../img/Veronica.JPG);
+}
+
+.sandy {
+	background: url(../img/sandy.jpg);
+}
+
+.joe {
+	background: url(../img/joe_blackT.jpg);
+}
+
+.hanh {
+	background: url(../img/hanh.jpg);
+}
+
+.sandy {
+	background: url(../img/sandy.jpg);
+}
