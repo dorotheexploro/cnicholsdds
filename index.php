@@ -15,9 +15,9 @@
 
 <section class="hero">
 	<div class="hero title">
-		<h1>Dr. Christopher T. Nichols, DDS</h1>
-		<h1 id="dentistry">FAMILY AND COSMETIC DENTISTRY<h1>
-		<h3>Since 1988</h3>
+		<h1 class="name hero title">Dr. Christopher T. Nichols, DDS</h1>
+		<h1 class="dentistry hero title">FAMILY AND COSMETIC DENTISTRY<h1>
+		<h3 class="since hero title">Since 1988</h3>
 	</div>
 </section>
 
@@ -34,7 +34,10 @@
 </section>
 
 <section class="Chris">
-	<div class="statement">Since 1988 we have been providing quality pain-free dental care to the residents of San Francisco in a comfortable environment that stresses listening to patients needs.</div>
+	<div class="statement">
+		<h3>Hi, I'm Dr. Christoper T. Nichols, DDS. I have built my practice around providing my customers with comfort and making the trip to dentist as easy and comfortable as possible.</h3>
+		<p>My background includes this degree 
+	</div>
 </section>
 
 <section class="team">

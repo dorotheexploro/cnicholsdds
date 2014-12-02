@@ -43,12 +43,13 @@
 }
 
 .hero {
-	background: url(../img/Office_bkgr.jpg) no-repeat center center;
+	background: url(../img/officeheroimage.jpg) no-repeat center center;
 	background-size: cover;
 	margin-top: 0;
 	height: 800px;
 	position: relative;
 	background-attachment: fixed;
+	width: 100%;
 }
 
 .hero.title {
@@ -63,6 +64,15 @@
 	top: 600px;
 	padding: 20px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.name {
+	color: #2152d3;
+	font-family: Open Sans;
+	font-weight: 800;
+	padding: 20px;
+	position: relative;
 }
 
 .dentistry {
@@ -70,6 +80,15 @@
 	font-family: Open Sans;
 	font-weight: 800;
 	padding: 20px;
+	position: relative;
+}
+
+.since {
+	color: #2152d3;
+	font-family: Open Sans;
+	font-weight: 800;
+	padding: 20px;
+	position: relative;
 }
 
 .intro {
@@ -77,6 +96,7 @@
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	position: relative;
 }
 
 .logo {
@@ -139,12 +159,20 @@
 	padding-top: 1px;
 	position: relative;
 	background-attachment: fixed;
+	text-align: center;
 }
 
 .quality.text {
-	background-color: rgba(255,255,255,0.5);
 	margin-top: 300px;
 	padding: 100px 0;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+	max-width: 900px;
+	margin: 0 auto;
+	color: #333333;
+	letter-spacing: .1em;
+	line-height: 1.6;
+	
 }
 
 .team.text {
