@@ -14,10 +14,10 @@
 </header>
 
 <section class="hero">
-	<div class="hero title">
-		<h1 class="name hero title">Dr. Christopher T. Nichols, DDS</h1>
-		<h1 class="dentistry hero title">FAMILY AND COSMETIC DENTISTRY<h1>
-		<h3 class="since hero title">Since 1988</h3>
+	<div class="hero text">
+		<h1 class="name">Dr. Christopher T. Nichols, DDS</h1>
+		<h1 class="dentistry">FAMILY AND COSMETIC DENTISTRY<h1>
+		<h3 class="since">Since 1988</h3>
 	</div>
 </section>
 
@@ -29,25 +29,32 @@
 		<a href="#" class="appt button">Request Appointment</a>
 </section>
 
-<section class="quality">
-	<div class="quality text">With years of experience, we provide the best quality services - from general treatment to veneers</div>
+<section class="services">
+	<div class="services title">OUR SERVICES</div>
+	<div class="divider"></div>
+	<div class="services text">Having a beautiful smile is a great asset, each smile we see is unique. Whatever your needs, we have the technology.</div>
+	<a href="#" class="smile button">Smile Gallery</a>
 </section>
 
-<section class="Chris">
+<section class="cnichols">
 	<div class="statement">
-		<h3>Hi, I'm Dr. Christoper T. Nichols, DDS. I have built my practice around providing my customers with comfort and making the trip to dentist as easy and comfortable as possible.</h3>
-		<p>My background includes this degree 
+		<h2>Hi, I'm Dr. Christoper T. Nichols, DDS. I have built my practice around providing my customers with comfort and making the trip to dentist as easy and comfortable as possible.</h2>
+		<p>My background includes this degree from this educational institution. I have this experience</p>
 	</div>
 </section>
 
 <section class="team">
-	<h4 class="team text">Meet the Team</h4>
+	<h1 class="team text">Meet the Team</h1>
 	<div class="lee profile image"></div>
 	<div class="veronica profile image"></div>
 	<div class="sandy profile image"></div>
 	<div class="joe profile image"></div>
 	<div class="hahn profile image"></div>
 	<div class="sandy profile image"></div>
+</section>
+
+<section class="contact">
+	<>
 </section>
  
 <?php include("footer.php"); ?>

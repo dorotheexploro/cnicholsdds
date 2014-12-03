@@ -43,7 +43,7 @@
 }
 
 .hero {
-	background: url(../img/officeheroimage.jpg) no-repeat center center;
+	background: url(../img/officeheroimage.jpg) no-repeat center;
 	background-size: cover;
 	margin-top: 0;
 	height: 800px;
@@ -52,7 +52,7 @@
 	width: 100%;
 }
 
-.hero.title {
+.hero.text {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -93,6 +93,7 @@
 
 .intro {
 	background-color: #3763d7;
+	/*background-attachment: fixed;*/
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -107,8 +108,8 @@
 .welcome {
 	width: 100%;
 	text-align: center;
-	font-family: Raleway;
-	font-weight: 900;
+	font-family: Open Sans;
+	font-weight: 800;
 	font-size: 40pt;
 	color: #ebebeb;
 	padding: 10px 0 50px;
@@ -127,6 +128,7 @@
 	font-family: "Open Sans";
 	font-size: 1.5em;
 	max-width: 900px;
+	min-width: 350px;
 	margin: 0 auto;
 	color: #ebebeb;
 	letter-spacing: .1em;
@@ -152,17 +154,30 @@
 	background-color: #0737b6;
 }
 
-.quality {
-	background: url(../img/dentistchair.jpg) no-repeat center center;
+.services {
+	background: url(../img/services_bkgr.jpg) no-repeat center;
 	background-size: cover;
 	margin-top: 0;
-	padding-top: 1px;
 	position: relative;
 	background-attachment: fixed;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
 }
 
-.quality.text {
+.services.title {
+	width: 100%;
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: 800;
+	font-size: 40pt;
+	color: #2149b3;
+	padding: 10px 0 50px;
+	letter-spacing: .2em;
+}
+
+.services.text {
 	margin-top: 300px;
 	padding: 100px 0;
 	font-family: "Open Sans";
@@ -172,6 +187,35 @@
 	color: #333333;
 	letter-spacing: .1em;
 	line-height: 1.6;
+	max-width: 900px;
+	min-width: 350px;
+	
+}
+
+.smile.button {
+	background-color: #ffc944;
+	color: #252525;
+	border-radius: 10px;
+	padding: 20px 50px;
+	margin-bottom: 50px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 14pt;
+	letter-spacing: .2em;
+	transition: all 200ms;
+}
+
+.appt.button:hover {
+	background-color: #fede90;
+}
+
+.cnichols {
+	
+}
+
+.statement {
 	
 }
 
@@ -180,6 +224,8 @@
 	font-family: "Open Sans";
 	font-size: 40pt;
 	color: #3763d7;
+	max-width: 900px;
+	min-width: 350px;
 }
 
 .profile.image {
