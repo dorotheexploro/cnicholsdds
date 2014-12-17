@@ -53,47 +53,40 @@
 }
 
 .hero.text {
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 	text-align: center;
-	font-family: Raleway;
-	font-weight: 300;
-	color: #2152d3;
+	color: #0737b6;
 	top: 600px;
-	padding: 20px;
 	margin: 0 auto;
 	position: relative;
 }
 
-.name {
-	color: #2152d3;
-	font-family: Open Sans;
-	font-weight: 800;
-	padding: 20px;
-	position: relative;
+#name {
+	font-family: Raleway;
+	font-weight: 500;
+	padding: 2px;
+	letter-spacing: .05em;
+	line-height: .6;
 }
 
-.dentistry {
-	color: #2152d3;
+#dentistry {
 	font-family: Open Sans;
 	font-weight: 800;
-	padding: 20px;
-	position: relative;
+	padding: 2px;
+	letter-spacing: .05em;
+	line-height: .6;
 }
 
-.since {
-	color: #2152d3;
-	font-family: Open Sans;
-	font-weight: 800;
-	padding: 20px;
-	position: relative;
+#since {
+	font-family: Raleway;
+	font-weight: 300;
+	padding: 2px;
+	letter-spacing: .05em;
+	line-height: .6;
 }
 
 .intro {
 	background-color: #3763d7;
-	/*background-attachment: fixed;*/
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -126,13 +119,13 @@
 .intro.text {
 	text-align: center;
 	font-family: "Open Sans";
-	font-size: 1.5em;
-	max-width: 900px;
-	min-width: 350px;
+	font-size: 1.125em;
+	letter-spacing: .05em;
+	line-height: 1.6;
+	max-width: 700px;
+	min-width: 400px;
 	margin: 0 auto;
 	color: #ebebeb;
-	letter-spacing: .1em;
-	line-height: 1.6;
 }
 
 .appt.button {
@@ -145,13 +138,14 @@
 	text-decoration: none;
 	font-family: Raleway;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 1em;
+	line-height: 1.2;
 	letter-spacing: .2em;
 	transition: all 200ms;
 }
 
 .appt.button:hover {
-	background-color: #0737b6;
+	background-color: #073ccb;
 }
 
 .services {
@@ -169,7 +163,7 @@
 .services.title {
 	width: 100%;
 	text-align: center;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-weight: 800;
 	font-size: 40pt;
 	color: #2149b3;
@@ -181,14 +175,13 @@
 	margin-top: 300px;
 	padding: 100px 0;
 	font-family: "Open Sans";
-	font-size: 1.5em;
-	max-width: 900px;
+	font-size: 1.125em;
 	margin: 0 auto;
 	color: #333333;
-	letter-spacing: .1em;
+	letter-spacing: .05em;
 	line-height: 1.6;
-	max-width: 900px;
-	min-width: 350px;
+	max-width: 700px;
+	min-width: 400px;
 	
 }
 
@@ -202,28 +195,87 @@
 	text-decoration: none;
 	font-family: Raleway;
 	font-weight: 400;
-	font-size: 14pt;
+	font-size: 1em;
 	letter-spacing: .2em;
 	transition: all 200ms;
 }
 
-.appt.button:hover {
+.smile.button:hover {
 	background-color: #fede90;
 }
 
 .cnichols {
-	
+	background: url(../img/NicholsHero.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: 0px;
+	position: relative;
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
 }
 
 .statement {
-	
+	margin-top: 300px;
+	padding: 200px 500px 100px 20px;
+	max-width: 900px;
+	margin: 0 auto;
+	max-width: 600px;
+	min-width: 350px;
+}
+
+#meet {
+	font-family: "Open Sans";
+	font-size: 2.5em;
+	color: #062e99;
+	letter-spacing: .1em;
+	line-height: .02;
+	text-transform: uppercase;
+}
+
+#chris {
+	font-family: "Open Sans";
+	font-size: 2.5em;
+	color: #062e99;
+	letter-spacing: .1em;
+	line-height: 1.6;
+	text-transform: uppercase;
+}
+
+#summary {
+	font-family: "Open Sans";
+	font-size: 1.2em;
+	color: #333333;
+	letter-spacing: .1em;
+	line-height: 1.6;
+}
+
+#bio {
+	font-family: "Open Sans";
+	font-size: 1em;
+	color: #333333;
+	letter-spacing: .1em;
+	line-height: 1.6;
+}
+
+.team {
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
 }
 
 .team.text {
-	text-align: center;
 	font-family: "Open Sans";
-	font-size: 40pt;
-	color: #3763d7;
+	font-weight: 800;
+	font-size: 2.5em;
+	letter-spacing: .2em;
+	padding: 10px 0 50px;
+	color: #2149b3;
+	text-transform: uppercase;
 	max-width: 900px;
 	min-width: 350px;
 }
@@ -247,14 +299,34 @@
 	background: url(../img/sandy.jpg);
 }
 
-.joe {
-	background: url(../img/joe_blackT.jpg);
-}
-
 .hanh {
 	background: url(../img/hanh.jpg);
 }
 
-.sandy {
+.seiko {
 	background: url(../img/sandy.jpg);
+}
+
+.joe {
+	background: url(../img/joe_blackT.jpg);
+}
+
+.find {
+	width: 100%;
+	height: 50px;
+	background-color: #fafaf8;
+	padding: 10px;
+	text-align: center;
+}
+
+.find.text {
+	font-family: "Open Sans";
+	font-weight: 500;
+	font-size: 2em;
+	color: #464646;
+	max-width: 700px;
+}
+
+.contact {
+	
 }
