@@ -36,7 +36,7 @@
 
 <section class="cnichols">
 	<div class="statement">
-		<h1 id="meet">Meet</h1>
+		<h1 id="meet"<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">Meet</h1>
 		<h1 id="chris">Christopher T. Nichols</h1>
 		<h2 id="summary">Hi, I'm Dr. Christoper T. Nichols, DDS. I have built my practice around providing my customers comfort and making the trip to dentist as easy and comfortable as possible.</h2>
 		<p id="bio">My background includes this degree from this educational institution. I have this experience</p>
@@ -55,8 +55,8 @@
 
 <section class="find">
 	<h1 class="find text">Find us on:</h1>
-	<a href="#" class="find element"><img class="yelp" src="###"/></a>
-	<a href="#" class="find element"><img class="other" src="###"/></a>
+	<a href="http://www.yelp.com/biz/christopher-nichols-dds-san-francisco" class="find element"><img class="yelp" src="assets/yelp_icon.png" border="0" alt="yelp reviews"/></a>
+	<a href="#" class="find element"><img class="other" src="###" alt="reviews icon"/></a>
 </section>
 
 <section class="contact">
