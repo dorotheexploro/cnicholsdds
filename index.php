@@ -13,8 +13,8 @@
 
 <section class="hero">
 	<div class="hero text">
-		<h1 id="name">Christopher T. Nichols, D.D.S.</h1>
-		<h1 id="dentistry">FAMILY AND COSMETIC DENTISTRY<h1>
+		<h1 id="name">CHRISTOPHER T. NICHOLS, D.D.S.</h1>
+		<h1 id="dentistry">Family and Cosmetic Dentistry<h1>
 		<h3 id="since">Since 1988</h3>
 	</div>
 </section>
